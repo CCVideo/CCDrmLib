@@ -1,6 +1,6 @@
 package com.bokecc.ccsskt.example;
 
-import android.support.multidex.MultiDexApplication;
+import android.app.Application;
 
 import com.bokecc.common.application.ApplicationData;
 import com.bokecc.common.crash.CCCrashManager;
@@ -8,7 +8,7 @@ import com.bokecc.common.crash.CCCrashManager;
 /**
  * Application
  */
-public class CCApplication extends MultiDexApplication {
+public class CCApplication extends Application {
 
     @Override
     public void onCreate() {
